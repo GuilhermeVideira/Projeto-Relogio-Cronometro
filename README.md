@@ -1,7 +1,7 @@
 # ⏱ Projeto Relógio e Crônometro digital ⏱
 Este seguinte projeto é uma atividade prática usando a linguagem de programação JavaScript.
 
-No modelo da prática desenvolvi uma página web informativa sobre o criador do relógio digital, com a funcionalidade de apresentar um relógio digital com o horário atual de acesso, e um cronôgroma para cronometrar o tempo. 
+No modelo da prática desenvolvi uma página web informativa sobre o criador do relógio digital, com a funcionalidade de apresentar um relógio digital exemplo com o horário atual de acesso, e um cronôgroma para cronometrar o tempo. 
 
 🧭 ⏱ ⏲ ⏰ 🕰 ⌛️ ⏳
 
