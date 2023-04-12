@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./imagens/DesenhoCronometro.png" type="image/x-icon"> 
+
+    <title> Relógio - Cronômetro</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index:999;">
+    <a class="navbar-brand" href="#"> Relógio - Cronômetro </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    </div><br>
+    </nav>
+
+    <br><br> <br><br> 
+    <center> 
+
+    <span class="texto01">
+     <img class="Relógio" height="30px" width="30px"src="./imagens/DesenhoCronometro.png" alt="Relógio" /> 
+     Relógio digital 
+     <img class="Relógio" height="30px" width="30px"src="./imagens/DesenhoCronometro.png" alt="Relógio" />  </span> 
+    </center> 
+    <br> 
+  
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+    <br><br><br> <div class="texto"> 
+    <span class="texto03">  Quem inventou o relógio digital? </span> </div>
+
+        <br><br> <div class="descricao"> 
+        <span class="texto04">  Thomas Bromley, um engenheiro britânico e inventor amador, projetou um dos primeiros relógios digitais do mundo em seu galpão em Hull, no norte da Inglaterra em 1961.  Seu modelo, criado em 1961, foi vendido em um leilão em 2018. O invento nunca foi reproduzido, mas, de acordo com vários historiadores, o relógio eletrônico Digitron que ele projetou era "idêntico" aos modelos posteriores comercializados no mundo.  </span> </div> <br> <br> <br>  <br> <br> <br>  
+    
+            <center> 
+            <span class="texto01"> 
+            <img class="Relógio" height="30px" width="30px"src="./imagens/DesenhoCronometro.png" alt="Relógio" />  
+            Cronômetro digital 
+            <img class="Relógio" height="30px" width="30px"src="./imagens/DesenhoCronometro.png" alt="Relógio" />  </span>
+            </center>  <br>   
+
+        <div class="cronometro">
+
+        <span class="texto02"> Tempo </span>
+        <h1 id="horario">00:00:00</h1>
+
+        <button onclick="start();" class="bg-green">Iniciar</button>
+        <button onclick="pause();" class="bg-yellow">Pausar</button>
+        <button onclick="stop();" class="bg-red">Zerar</button>
+        <br>
+
+    </div>  <br>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
