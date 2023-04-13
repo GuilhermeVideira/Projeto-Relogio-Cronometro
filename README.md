@@ -3,7 +3,7 @@ Este seguinte projeto é uma atividade prática usando a linguagem de programaç
 
 No modelo da prática desenvolvi uma página web informativa sobre o criador do relógio digital, com a funcionalidade de apresentar um exemplo de um relógio digital com o horário atual de acesso, e um cronôgroma para cronometrar o tempo registrado. 
 
-🧭 ⏱ ⏲ ⏰ 🕰 ⌛️ ⏳
+🧭 ⏱ ⏲ ⏰ ⌛️ ⏳
 
 #
 
